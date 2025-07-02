@@ -1,0 +1,59 @@
+---
+import BaseLayout from './Layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Our Services">
+  <section class="text-center py-16 bg-gray-100">
+    <h1 class="text-4xl font-bold mb-4">Our Services</h1>
+    <p class="max-w-xl mx-auto text-lg text-gray-600 mb-6">
+      Whether you need consultation, end-to-end implementation, or specialized services,
+      we offer tailored solutions to bring your vision to life.
+    </p>
+    <button class="bg-black text-white px-6 py-2 rounded hover:bg-gray-800">
+      Explore Services
+    </button>
+  </section>
+
+  <section class="bg-gray-200 py-12">
+    <h2 class="text-2xl text-center font-semibold mb-8">How We Deliver Success</h2>
+    <div class="flex flex-wrap justify-center gap-6 px-4">
+      <div class="bg-white p-6 rounded shadow-md w-64">Consulting & Planning</div>
+      <div class="bg-white p-6 rounded shadow-md w-64">Design & Development</div>
+      <div class="bg-white p-6 rounded shadow-md w-64">Testing & Maintenance</div>
+      <div class="bg-white p-6 rounded shadow-md w-64">Launch & Support</div>
+    </div>
+  </section>
+
+  <nav class="bg-white py-4 shadow-md">
+    <ul class="flex justify-center gap-6 text-lg">
+      <li>🏠 Home</li>
+      <li>📄 About</li>
+      <li>🛠 Services</li>
+      <li>💲 Pricing</li>
+      <li>❓ FAQs</li>
+      <li>📞 Contact</li>
+    </ul>
+  </nav>
+
+  <section class="py-12 px-4">
+    <h2 class="text-2xl font-semibold text-center mb-8">Comprehensive Solutions</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <div class="bg-white p-6 rounded shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Sensor Integration</h3>
+        <p class="text-gray-600">Enhance the potential of physical systems through smart sensor integrations.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Cloud Platform</h3>
+        <p class="text-gray-600">Enable your service scalability through robust cloud deployment and architecture.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow-md">
+        <h3 class="text-xl font-semibold mb-2">Domain Expertise</h3>
+        <p class="text-gray-600">Benefit from our deep industry knowledge tailored to your business goals.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow-md">
+        <h3 class="text-xl font-semibold mb-2">AI and Data Sciences</h3>
+        <p class="text-gray-600">Unlock powerful insights and automation through machine learning and data science.</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
